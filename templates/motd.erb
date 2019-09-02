@@ -1,0 +1,6 @@
+Malaka Of The Day [MOTD]:
+
+  IPADDRESS: <%= node['cloud']['public_ipv4'] %>
+  HOSTNAME : <%= node['cloud']['public_hostname'] %>
+  MEMORY   : <%= node["memory"]["total"] %>
+  CPU      : <%= node["cpu"]["0"]["mhz"] %>
